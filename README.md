@@ -54,8 +54,8 @@ Datasets can be found inside the folder ```data/```.
 To clone and use this repository, run the following terminal commands:
 
 ```
-git clone https://github.com/katiana22/surrogate-overparameterization.git
-cd surrogate-overparameterization
+git clone https://github.com/katiana22/TL-DeepONet.git
+cd TL-DeepONet
 pip install -r requirements.txt
 ```
 
