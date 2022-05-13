@@ -16,13 +16,16 @@ Authors: [Somdatta Goswami](https://scholar.google.com/citations?user=GaKrpSkAAA
 
 ## Method
 
-The key idea behind transfer learning is learning machines that leverage knowledge gained from one task to improve accuracy and generalization in another different but related task.
+The key idea behind **transfer learning** is learning machines that leverage knowledge gained from one task to improve accuracy and generalization in another different but related task.
 
-Physics-based systems often require the accurate solution of PDEs that are related but differ in a certain aspect, i.e., there exists a conditional distribution mismatch.
+Physics-based systems often require the accurate solution of PDEs that are related but differ in a certain aspect, i.e., there exists a **conditional distribution mismatch**.
 
 In our latest work, we propose a novel framework which exploits information from pre-trained (source) deep neural operators (DeepONets), for fast and accurate task-specific partial differential equation (PDE) learning (target).
 
-The key ingredient of this approach is the extraction of domain-invariant features, the embedding of conditional distributions on a reproducing kernel Hilbert space (RKHS) and the self-adaptive learning of penalizing parameters which allows adaptation between source and target domains.
+The key ingredients of this approach is:
+* the extraction of domain-invariant features, 
+* the embedding of conditional distributions on a reproducing kernel Hilbert space (RKHS) and 
+* the self-adaptive learning of penalizing parameters which allows adaptation between source and target domains.
 
 <p align="center">
   <img src="schematics/TL-framework.jpg" width="900" />
@@ -38,7 +41,7 @@ load, to the displacement field. We consider the following transfer learning sce
   <img src="schematics/application.png" width="900" />
 </p>
 
-We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function. For more details, refer to the [paper](https://arxiv.org/abs/2204.09810).
+We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function, which allows for efficient multi-task operator learning under various distribution mismatch scenarios. For more details, refer to the [paper](https://arxiv.org/abs/2204.09810).
 
 ## Contents
 
