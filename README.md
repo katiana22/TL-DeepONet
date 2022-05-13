@@ -34,7 +34,7 @@ load, to the displacement field. We consider the following transfer learning sce
 * Transfer learning from displacement fields with a centered hole and material properties (E_S, ν_S) to displacement fields with two smaller holes in the upper right and lower left corners and different material properties (E_T , ν_T).
 
 <p align="center">
-  <img src="schematics/Application-schematic.png" width="700" />
+  <img src="schematics/application.png" width="900" />
 </p>
 
 ## Contents
