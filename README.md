@@ -37,6 +37,8 @@ load, to the displacement field. We consider the following transfer learning sce
   <img src="schematics/application.png" width="900" />
 </p>
 
+We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function. For more details, refer to the [paper](https://arxiv.org/abs/2204.09810).
+
 ## Contents
 
 * ```data``` - contains files with the input random field data used to generate the train and test data of the model
