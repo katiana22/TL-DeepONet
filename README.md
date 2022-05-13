@@ -22,7 +22,7 @@ Physics-based systems often require the accurate solution of PDEs that are relat
 
 In our latest work, we propose a novel framework which exploits information from pre-trained (source) deep neural operators (DeepONets), for fast and accurate task-specific partial differential equation (PDE) learning (target).
 
-The key ingredients of this approach is:
+The key ingredients of this approach are:
 * the extraction of domain-invariant features, 
 * the embedding of conditional distributions on a reproducing kernel Hilbert space (RKHS) and 
 * the self-adaptive learning of penalizing parameters which allows adaptation between source and target domains.
