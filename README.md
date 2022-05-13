@@ -5,6 +5,7 @@
 * [Contents](#contents)
 * [Datasets](#datasets)
 * [Clone](#clone)
+* [Contact](#contact)
 
 ## General info
 
