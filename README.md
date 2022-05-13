@@ -24,7 +24,7 @@ In our latest work, we propose a novel framework which exploits information from
 The key ingredient of this approach is the extraction of domain-invariant features, the embedding of conditional distributions on a reproducing kernel Hilbert space (RKHS) and the self-adaptive learning of penalizing parameters which allows adaptation between source and target domains.
 
 <p align="center">
-  <img src="schematics/TL-framework.jpg" width="700" />
+  <img src="schematics/TL-framework.jpg" width="900" />
 </p>
 
 ## Application
