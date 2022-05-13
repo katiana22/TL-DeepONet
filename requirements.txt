@@ -1,0 +1,5 @@
+tensorflow==1.15
+numpy
+scipy==1.4.1
+matplotlib
+sklearn
