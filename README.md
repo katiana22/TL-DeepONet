@@ -29,9 +29,9 @@ The key ingredient of this approach is the extraction of domain-invariant featur
 
 ## Application
 
-* The **Brusselator** diffusion-reaction dynamical system is studied, which describes an autocatalytic chemical reaction between two substances. 
-* The objective is to approximate the mapping between high-dimensional stochastic initial fields with the evolution of the system across time and space (first row below). The model response is learned for two dynamical states, when the system reaches a **fixed point** in the phase space (second row) and when it reaches a **limit cycle** (third row). 
-* We explore the capabilities of the studied models and test them for various regression tasks including their **extrapolation/generalization** ability (performance to out-of-distribution data), **robustness to noise**, ability to handle complex stochastic inputs and **highly nonlinear** mappings.
+We consider a thin rectangular plate subjected to in-plane loading that is modeled as a two-dimensional problem of plane stress elasticity. We model the loading conditions applied to the right edge of the plate, as a Gaussian random field, and we aim to learn the mapping from the random boundary
+load, to the displacement field. We consider the following transfer learning scenario:
+* Transfer learning from displacement fields with a centered hole and material properties (E_S, ν_S) to displacement fields with two smaller holes in the upper right and lower left corners and different material properties (E_T , ν_T).
 
 <p align="center">
   <img src="schematics/Application-schematic.png" width="700" />
