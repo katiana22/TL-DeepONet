@@ -3,7 +3,6 @@
 * [Method](#method)
 * [Application](#application)
 * [Contents](#contents)
-* [Datasets](#datasets)
 * [Clone](#clone)
 * [Contact](#contact)
 
@@ -45,11 +44,7 @@ We transfer information from the trained source model (DeepONet) to the target m
 
 * ```data_generation/``` - contains script (in Python and Matlab) to generate labeled data for all three PDE applications.
 
-* ```TL{1-6}/``` - contains python scripts and notebooks for implementing the proposed transfer learning approach.
-
-## Datasets
-
-Datasets can be found inside the folder ```data/```.
+* ```TL{1-6}/``` - contains python scripts and notebooks for implementing the proposed transfer learning approach. As a first step, the ```source_model.py``` script needs to be executed. The optimized source model parameters are saved inside a local folder ```Variables/```. Finally, the ```target_model.py``` script can be used for fine-tuning of the target model for each target PDE task.
 
 ## Clone
 
@@ -59,19 +54,6 @@ To clone and use this repository, run the following terminal commands:
 git clone https://github.com/katiana22/TL-DeepONet.git
 cd TL-DeepONet
 pip install -r requirements.txt
-```
-
-## Citation
-
-If you find this GitHub repository useful for your work, please consider citing this work:
-
-```
-@article{goswami2022deep,
-  title={Deep transfer learning for partial differential equations under conditional shift with DeepONet},
-  author={Goswami, Somdatta and Kontolati, Katiana and Shields, Michael D and Karniadakis, George Em},
-  journal={arXiv preprint arXiv:2204.09810},
-  year={2022}
-}
 ```
 ______________________
 
