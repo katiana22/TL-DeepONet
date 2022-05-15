@@ -10,7 +10,7 @@
 ## General info
 
 This Git repository contains codes for the **'Deep transfer operator learning for partial
-differential equations under conditional shift'** paper which can be found here: [https://arxiv.org/abs/2204.09810](https://arxiv.org/abs/2204.09810).
+differential equations under conditional shift'** manuscript.
 
 Authors: [Somdatta Goswami](https://scholar.google.com/citations?user=GaKrpSkAAAAJ&hl=en&oi=sra), [Katiana Kontolati](https://scholar.google.com/citations?user=n8wtUDYAAAAJ&hl=en&oi=sra), [Michael D. Shields](https://scholar.google.com/citations?user=hc85Ll0AAAAJ&hl=en), [George Em Karniadakis](https://scholar.google.com/citations?user=yZ0-ywkAAAAJ&hl=en)
 
@@ -39,7 +39,7 @@ As presented in the Table below, we demonstrate the capabilities of our approach
   <img src="schematics/applications-1.png" width="900" />
 </p>
 
-We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function, which allows for efficient multi-task operator learning under various distribution mismatch scenarios. For more details, refer to the [paper](https://arxiv.org/abs/2204.09810).
+We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function, which allows for efficient multi-task operator learning under various distribution mismatch scenarios. 
 
 ## Contents
 
