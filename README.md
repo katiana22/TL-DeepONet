@@ -45,7 +45,7 @@ We transfer information from the trained source model (DeepONet) to the target m
 
 * ```data_generation/``` - contains script (in Python and Matlab) to generate labeled data for all three PDE applications.
 
-* ```main_{}.py```/ ```main_{}.ipynb``` - contains python scripts and notebooks for implementing the proposed approaches
+* ```TL{1-6}/``` - contains python scripts and notebooks for implementing the proposed transfer learning approach.
 
 ## Datasets
 
