@@ -33,12 +33,10 @@ The key ingredients of this approach are:
 
 ## Application
 
-We consider a thin rectangular plate subjected to in-plane loading that is modeled as a two-dimensional problem of plane stress elasticity. We model the loading conditions applied to the right edge of the plate, as a Gaussian random field, and we aim to learn the mapping from the random boundary
-load, to the displacement field. We consider the following transfer learning scenario:
-* Transfer learning from displacement fields with a centered hole and material properties (E_S, ν_S) to displacement fields with two smaller holes in the upper right and lower left corners and different material properties (E_T , ν_T).
+As presented in the Table below, we demonstrate the capabilities of our approach on three classes of PDE problems where domains and physical parameters have significant differences.
 
 <p align="center">
-  <img src="schematics/application.png" width="900" />
+  <img src="schematics/applications-1.png" width="900" />
 </p>
 
 We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function, which allows for efficient multi-task operator learning under various distribution mismatch scenarios. For more details, refer to the [paper](https://arxiv.org/abs/2204.09810).
