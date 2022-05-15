@@ -43,7 +43,7 @@ We transfer information from the trained source model (DeepONet) to the target m
 
 ## Contents
 
-* ```data``` - contains files with the input random field data used to generate the train and test data of the model
+* ```data_generation/``` - contains script (in Python and Matlab) to generate labeled data for all three PDE applications.
 
 * ```main_{}.py```/ ```main_{}.ipynb``` - contains python scripts and notebooks for implementing the proposed approaches
 
