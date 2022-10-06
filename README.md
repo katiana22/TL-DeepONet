@@ -35,7 +35,7 @@ The key ingredients of this approach are:
 As presented in the Table below, we demonstrate the capabilities of our approach on three classes of PDE problems where domains and physical parameters have significant differences.
 
 <p align="center">
-  <img src="schematics/applications-1.png" width="900" />
+  <img src="schematics/Applications-3.png" width="900" />
 </p>
 
 We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function, which allows for efficient multi-task operator learning under various distribution mismatch scenarios. 
