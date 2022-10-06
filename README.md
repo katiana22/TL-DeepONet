@@ -3,7 +3,7 @@
 * [Method](#method)
 * [Application](#application)
 * [Contents](#contents)
-* [Clone](#clone)
+* [Get started](#get-started)
 * [Contact](#contact)
 
 ## General info
@@ -46,12 +46,24 @@ We transfer information from the trained source model (DeepONet) to the target m
 
 * ```TL{1-6}/``` - contains python scripts and notebooks for implementing the proposed transfer learning approach. As a first step, the ```source_model.py``` script needs to be executed. The optimized source model parameters are saved inside a local folder ```Variables/```. Finally, the ```target_model.py``` script can be used for fine-tuning of the target model for each target PDE task.
 
-## Clone
+## Get started
+
+**1.** Create an Anaconda Python 3.8 virtual environment:
+```
+conda create -n tl-deeponet python==3.7
+conda activate tl-deeponet
+```
+
+**2.** Clone the repo:
 
 To clone and use this repository, run the following terminal commands:
 
 ```
 git clone https://github.com/katiana22/TL-DeepONet.git
+```
+**3.** Install dependencies:
+
+```
 cd TL-DeepONet
 pip install -r requirements.txt
 ```
