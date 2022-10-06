@@ -38,7 +38,7 @@ As presented in the Table below, we demonstrate the capabilities of our approach
   <img src="schematics/Applications-3.png" width="900" />
 </p>
 
-We transfer information from the trained source model (DeepONet) to the target model (DeepTONet) and finetune it via the hybrid loss function, which allows for efficient multi-task operator learning under various distribution mismatch scenarios. 
+We transfer information from the trained source model (DeepONet) to the target model (TL-DeepONet) and finetune it via the hybrid loss function, which allows for efficient multi-task operator learning under various distribution mismatch scenarios. 
 
 ## Contents
 
