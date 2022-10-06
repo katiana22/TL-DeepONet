@@ -48,7 +48,7 @@ We transfer information from the trained source model (DeepONet) to the target m
 
 ## Get started
 
-**1.** Create an Anaconda Python 3.8 virtual environment:
+**1.** Create an Anaconda Python 3.7 virtual environment:
 ```
 conda create -n tl-deeponet python==3.7
 conda activate tl-deeponet
