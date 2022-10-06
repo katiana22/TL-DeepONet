@@ -17,7 +17,7 @@ Authors: [Somdatta Goswami](https://scholar.google.com/citations?user=GaKrpSkAAA
 
 The key idea behind **transfer learning** is learning machines that leverage knowledge gained from one task to improve accuracy and generalization in another different but related task.
 
-Physics-based systems often require the accurate solution of PDEs that are related but differ in a certain aspect, i.e., there exists a **conditional distribution mismatch**.
+In physics and engineering we often need the accurate solution of a PDEs solved on heterogeneous but subtly correlated domains, i.e., there exists a **conditional distribution mismatch**.
 
 In our latest work, we propose a novel framework which exploits information from pre-trained (source) deep neural operators (DeepONets), for fast and accurate task-specific partial differential equation (PDE) learning (target).
 
