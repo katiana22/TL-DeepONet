@@ -44,7 +44,7 @@ We transfer information from the trained source model (DeepONet) to the target m
 
 * ```data_generation/``` - contains script to generate labeled data for all three PDE applications. For the python scripts, packages in ```requirements.txt``` need to be installed. For the Matlab scripts, the [```PDEToolbox```](https://www.mathworks.com/products/pde.html) is required.
 
-* ```TL{1-6}/``` - contains python scripts and notebooks for implementing the proposed transfer learning approach. As a first step, the ```source_model.py``` script needs to be executed. The optimized source model parameters are saved inside a local folder ```Variables/```. Finally, the ```target_model.py``` script can be used for fine-tuning of the target model for each target PDE task.
+* ```TL{1-6}/``` - contains python scripts and notebooks for implementing the proposed transfer learning approach for certain applications in the paper. As a first step, the ```source_model.py``` script needs to be executed. The optimized source model parameters are saved inside a local folder ```Variables/```. Finally, the ```target_model.py``` script can be used for fine-tuning of the target model for each target PDE task.
 
 ## Get started
 
