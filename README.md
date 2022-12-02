@@ -9,7 +9,7 @@
 ## General info
 
 This Git repository contains codes for the **'Deep transfer operator learning for partial
-differential equations under conditional shift'** paper (accepted to [Nature Machine Intelligence](https://www.nature.com/natmachintell/)).
+differential equations under conditional shift'** paper publiished in [Nature Machine Intelligence](https://www.nature.com/articles/s42256-022-00569-2).
 
 Authors: [Somdatta Goswami](https://scholar.google.com/citations?user=GaKrpSkAAAAJ&hl=en&oi=sra), [Katiana Kontolati](https://scholar.google.com/citations?user=n8wtUDYAAAAJ&hl=en&oi=sra), [Michael D. Shields](https://scholar.google.com/citations?user=hc85Ll0AAAAJ&hl=en), [George Em Karniadakis](https://scholar.google.com/citations?user=yZ0-ywkAAAAJ&hl=en)
 
