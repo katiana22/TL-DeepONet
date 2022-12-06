@@ -69,6 +69,21 @@ pip install -r requirements.txt
 ```
 ______________________
 
+## Citation
+
+If you find this GitHub repository useful for your work, please consider citing this work:
+
+```
+@article{goswami2022deep,
+  title={Deep transfer operator learning for partial differential equations under conditional shift},
+  author={Goswami, Somdatta and Kontolati, Katiana and Shields, Michael D and Karniadakis, George Em},
+  journal={Nature Machine Intelligence},
+  pages={1--10},
+  year={2022},
+  publisher={Nature Publishing Group}
+}
+```
+
 ### Contact
 For more information or questions please contact us at:   
 * kontolati@jhu.edu   
