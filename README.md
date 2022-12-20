@@ -1,3 +1,10 @@
+<div align="center">  
+
+[![DOI](https://zenodo.org/badge/290199641.svg)](https://doi.org/10.5281/zenodo.7195684)
+[![arXiv](http://img.shields.io/badge/arXiv-2204.09810-B31B1B.svg)](https://arxiv.org/abs/2204.09810)
+
+</div>
+
 ## Table of contents
 * [General info](#general-info)
 * [Method](#method)
