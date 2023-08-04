@@ -17,7 +17,7 @@ y = linspace(0, 1, N);
 
 [xx, yy] = meshgrid(x, y);
 
-u = zeros(num,N,N);
+u = zeros(num,2295);
 for i = 1:num
     i
     per = K_field(i, :);
@@ -55,14 +55,17 @@ for i = 1:num
     axis off
     results = solvepde(model);
     ut = results.NodalSolution;
-    sol = interpolateSolution(results, xx, yy);
-    ut = reshape(sol, size(xx));
+    %sol = interpolateSolution(results, xx, yy);
+    %ut = reshape(sol, size(xx));
     %     figure;
     %     scatter(xx,yy,[],ut)
     %     imagesc(ut); colormap(jet); axis equal;
     
-    u(i,:,:) = ut;
-
+    u(i,:) = ut;
+    X = results.Mesh.Nodes;
+    X = X';
+    xx = X(:, 1);
+    yy = X(:, 2);
     %     pdeplot(model,'XYData',results.NodalSolution); colormap(jet); axis equal;
     
 end
@@ -74,4 +77,4 @@ load Coeff;
 k_train = coeff(1:2000,:,:);
 k_test = coeff(2001:2100,:,:);
 
-save("Dataset.mat","xx","yy","k_test","k_train","u_test","u_train","xB","yB")
+save("Dataset.mat","xx","yy","k_test","k_train","u_test","u_train")
